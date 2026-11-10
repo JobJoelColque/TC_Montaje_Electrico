@@ -16,7 +16,7 @@
       font-weight: 1000;      
     }
     .hero-copy p {
-      text-align:justify;
+      text-align:left;
       color: rgb(144, 202, 255);
       font-weight: 400;
       font-style: normal;
@@ -39,7 +39,7 @@
       font-size: 24px;
     }
     #nosotros p {
-      text-align:justify;
+      text-align:left;
       color: rgb(209, 220, 227);
       font-weight: 300;
       font-style: normal;
