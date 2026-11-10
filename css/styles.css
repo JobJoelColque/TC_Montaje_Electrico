@@ -1,7 +1,19 @@
 :root { --coal:#101418; --panel:#20272c; --steel:#b8c2c8; --blue:#4099e6; --line:#53616b; }
     html { scroll-behavior:smooth; }
-    body { margin:0; font-family:'Libre Franklin',sans-serif; color:#eef2f4; background:#101418; }
+    body {
+        margin:0;
+        font-family:'Libre Franklin',sans-serif;
+        color:#eef2f4;
+        background:#101418;
+    }
     *,*::before,*::after { box-sizing:border-box; }
+    #pantalla {
+    background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.25)
+      );
+    }
     #Logo img {
     height: 75px;
     width: auto;
