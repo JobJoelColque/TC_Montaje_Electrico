@@ -63,7 +63,7 @@
       font-size: 32px;
     }
     .hero-copy p {
-      text-align:left;
+      text-align: justify;
       color: rgb(144, 202, 255);
       font-weight: 800;
       font-style: normal;
