@@ -46,6 +46,22 @@
         object-fit: cover;
         object-position: center center;
     }
+    .hero-copy #detalle {
+      text-align: left;
+      color: rgb(144, 202, 241);
+      font-weight: 800;
+      font-style: normal;
+      font-size: 15px;
+      background: rgba(0, 0, 0, 0.55);
+      padding: 15px;
+      border-radius: 10px;
+    }
+    .hero-content h1 {
+      color: rgb(255, 255, 255);
+      font-weight: 800;
+      font-style: normal;
+      font-size: 32px;
+    }
     .hero-copy p {
       text-align:left;
       color: rgb(144, 202, 255);
@@ -67,13 +83,7 @@
       align-items:center;
       padding-top:25px;
       padding-bottom:125px;
-    }
-    .hero-content h1 {
-      color: rgb(255, 255, 255);
-      font-weight: 800;
-      font-style: normal;
-      font-size: 32px;
-    }
+    }    
     #titulo p[data-template-id="about-eyebrow"] {
       color: rgb(144, 202, 255);
       font-weight: 400;
@@ -85,17 +95,7 @@
       font-weight: 800;
       font-style: normal;
       font-size: 24px;
-    }
-    .hero-copy #detalle {
-      text-align: left;
-      color: rgb(144, 202, 241);
-      font-weight: 800;
-      font-style: normal;
-      font-size: 15px;
-      background: rgba(0, 0, 0, 0.55);
-      padding: 15px;
-      border-radius: 10px;
-    }
+    }    
     #nosotros p {
       text-align:left;
       color: rgb(209, 220, 227);
