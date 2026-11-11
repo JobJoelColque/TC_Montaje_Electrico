@@ -332,7 +332,7 @@
           padding-bottom:135px;
       }
       .hero-copy p {
-          text-align:center;
+          text-align:left;
           font-weight: 400;
           font-size: 13px;  
           background: rgba(0, 0, 0, 0.55);
