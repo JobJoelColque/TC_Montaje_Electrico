@@ -311,11 +311,50 @@
     }
     @media(max-width:767px) {
       #Logo img {
-      height: 60px;      
+          height: 60px;      
       }
       #Logo p {
-      font-size: 20px;
+          font-size: 20px;
       }
+      #slides .hero-slide img {
+          width: auto;        
+          object-fit: cover;
+          object-position: center center;
+      }
+         /* Centrar botón de WhatsApp*/ 
+      .hero-copy .canva-button {
+          display: flex;
+          width: fit-content;
+          margin-left: auto;
+          margin-right: auto;
+          justify-content: center;
+          align-items: center;
+      }
+       #inicio #boton {
+          margin-left: auto;
+          margin-right: auto;
+          justify-content: center;
+      }
+      .shell {
+          padding-bottom: 20px;
+      }
+      .hero-copy .rule {
+          width: 50%;
+          height: 3px;
+          margin-left: auto;
+          margin-right: auto;
+          background-color: rgb(0, 174, 255);
+      }  
+      .hero-content h1 {
+          text-align: center;
+          color: rgb(255, 255, 255);
+          font-weight: 800;
+          font-style: normal;
+          font-size: 25px;
+     }
+     .hero-content p {
+          text-align: justify;
+     }   
       .mobile-nav {
           display:none;
           position:absolute;
@@ -336,13 +375,7 @@
       .hero-content {
           min-height:620px;
           padding-bottom:135px;
-      }
-      .hero-content h1 {
-      color: rgb(255, 255, 255);
-      font-weight: 800;
-      font-style: normal;
-      font-size: 25px;
-     }  
+      }     
       .hero-copy p {
           text-align:left;
           font-weight: 400;
