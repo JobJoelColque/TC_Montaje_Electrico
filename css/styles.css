@@ -334,8 +334,11 @@
       .hero-copy p {
           text-align:center;
           font-weight: 400;
-          font-size: 15px;          
-    }
+          font-size: 13px;  
+          background: rgba(0, 0, 0, 0.55);
+          padding: 10px;
+          border-radius: 5px;
+      }
     
       .hero-shade {
           background:linear-gradient(90deg,rgba(9,14,19,.9),rgba(9,14,19,.52)),linear-gradient(0deg,#0b1117,transparent 65%);
