@@ -49,7 +49,7 @@
     .hero-copy p {
       text-align:left;
       color: rgb(144, 202, 255);
-      font-weight: 400;
+      font-weight: 800;
       font-style: normal;
       font-size: 15px;
       background: rgba(0, 0, 0, 0.55);
@@ -331,6 +331,12 @@
           min-height:620px;
           padding-bottom:135px;
       }
+      .hero-copy p {
+          text-align:center;
+          font-weight: 400;
+          font-size: 15px;          
+    }
+    
       .hero-shade {
           background:linear-gradient(90deg,rgba(9,14,19,.9),rgba(9,14,19,.52)),linear-gradient(0deg,#0b1117,transparent 65%);
       }
