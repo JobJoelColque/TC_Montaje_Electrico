@@ -86,6 +86,16 @@
       font-style: normal;
       font-size: 24px;
     }
+    .hero-copy #detalle {
+      text-align: left;
+      color: rgb(144, 202, 241);
+      font-weight: 800;
+      font-style: normal;
+      font-size: 15px;
+      background: rgba(0, 0, 0, 0.55);
+      padding: 15px;
+      border-radius: 10px;
+    }
     #nosotros p {
       text-align:left;
       color: rgb(209, 220, 227);
