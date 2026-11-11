@@ -354,7 +354,15 @@
      }
      .hero-content p {
           text-align: justify;
-     }   
+     }
+     .hero-copy #detalle {
+          font-weight: 400;
+          font-size: 12px;
+          background: rgba(0, 0, 0, 0.55);
+          padding: 10px;
+          border-radius: 5px;
+          text-align: center;
+      }
       .mobile-nav {
           display:none;
           position:absolute;
