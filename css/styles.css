@@ -356,8 +356,7 @@
           text-align: justify;
      }
      .hero-copy #detalle {
-          font-weight: 400;
-          font-size: 12px;
+          font-weight: 400;          
           background: rgba(0, 0, 0, 0.55);
           padding: 10px;
           border-radius: 5px;
