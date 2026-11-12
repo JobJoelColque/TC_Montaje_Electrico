@@ -68,7 +68,7 @@
       font-weight: 400; font-style: normal;
       font-size: 20px;
       background: rgba(0, 0, 0, 0.55);
-      padding: 15px;
+      padding: 20px;
       border-radius: 10px;  
     }
     .hero-copy a {
@@ -357,25 +357,25 @@
           margin-left: auto;
           margin-right: auto;
           background-color: rgb(0, 174, 255);
-      }  
-      .hero-content h1 {
-          text-align: center;
-          color: rgb(255, 255, 255);
-          font-weight: 800;
-          font-style: normal;
-          font-size: 25px;
-     }     
-     .hero-copy #detalle {
+      }
+      .hero-copy #detalle {
           font-weight: 400;          
           background: rgba(0, 0, 0, 0.55);
           padding: 10px;
           border-radius: 5px;
           text-align: center;
       }
-      .hero-copy p {
+      .hero-content h1 {
+          text-align: center;
+          color: rgb(255, 255, 255);
+          font-weight: 800;
+          font-style: normal;
+          font-size: 28px;
+     }     
+     .hero-copy p {
           text-align: justify;
-      }
-      .mobile-nav {
+     }
+     .mobile-nav {
           display:none;
           position:absolute;
           top:100%;
