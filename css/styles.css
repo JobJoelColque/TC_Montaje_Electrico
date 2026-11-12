@@ -360,16 +360,16 @@
           font-weight: 800;
           font-style: normal;
           font-size: 25px;
-     }
-     .hero-content p {
-          text-align: justify;
-     }
+     }     
      .hero-copy #detalle {
           font-weight: 400;          
           background: rgba(0, 0, 0, 0.55);
           padding: 10px;
           border-radius: 5px;
           text-align: center;
+      }
+      .hero-copy p {
+          text-align: justify;
       }
       .mobile-nav {
           display:none;
@@ -392,15 +392,6 @@
           min-height:620px;
           padding-bottom:135px;
       }     
-      .hero-copy p {
-          text-align:left;
-          font-weight: 400;
-          font-size: 13px;  
-          background: rgba(0, 0, 0, 0.55);
-          padding: 10px;
-          border-radius: 5px;
-      }
-    
       .hero-shade {
           background:linear-gradient(90deg,rgba(9,14,19,.9),rgba(9,14,19,.52)),linear-gradient(0deg,#0b1117,transparent 65%);
       }
