@@ -66,14 +66,18 @@
       text-align: justify;
       color: rgb(227, 234, 240);
       font-weight: 400; font-style: normal;
-      font-size: 19px;
+      font-size: 20px;
       background: rgba(0, 0, 0, 0.55);
       padding: 15px;
       border-radius: 10px;  
     }
     .hero-copy a {
       background: rgb(93, 169, 229);
-      color: rgb(7, 19, 29);
+      color: rgb(7, 19, 29);      
+    }
+    .hero-copy a:hover {
+      background: rgb(7, 19, 29);
+      color: rgb(148, 208, 255);      
     }
     .hero-content {
       position:relative;
