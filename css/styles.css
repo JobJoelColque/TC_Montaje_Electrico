@@ -99,16 +99,22 @@
       font-style: normal;
       font-size: 24px;
     }    
-    #nosotros p {
-      text-align:left;
-      color: rgb(209, 220, 227);
+    #nosotros p[data-template-id="about-description"] {
+    color: rgb(227, 234, 240);
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.8;
+    text-align: justify;
+    }
+    #nosotros .number {
+      text-align: left;
+      color: rgb(144, 202, 255);
       font-weight: 300;
       font-style: normal;
       font-size: 18px;
-    }
-    #cuadro1 p {
-
-    }
+    }    
     #cuadros h3 {
       color: rgb(255, 255, 255);
       font-weight: 700;
