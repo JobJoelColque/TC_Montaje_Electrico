@@ -133,11 +133,14 @@
       font-style: normal;
       font-size: 24px;
     }
-    #servicios #descripcion {
-      color: rgb(209, 220, 227);
-      font-weight: 400;
+    #servicios #descripcion {     
+      color: rgb(227, 234, 240);
+      font-family: Arial, sans-serif;
+      font-size: 20px;
+      font-weight: 500;
       font-style: normal;
-      font-size: 16px;
+      line-height: 1.8;
+      text-align: justify;
     }
     .rule {
         width:75px;
