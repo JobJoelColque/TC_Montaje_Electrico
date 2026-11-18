@@ -38,9 +38,10 @@
       font-size: 23px;
     }
     #nav a {
-      font-size: 20px;
+      font-size: 21px;
       color: rgb(238, 242, 244);
-      font-weight: 1000;      
+      font-weight: 400;
+      font-style: normal;     
     }
      #slides .hero-slide img {
         object-fit: cover;
