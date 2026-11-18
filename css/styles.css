@@ -146,13 +146,7 @@
         width:75px;
         height:3px;
         background:#55a8f1;
-    }
-     #servicios #descripcion {
-      color: rgb(209, 220, 227);
-      font-weight: 400;
-      font-style: normal;
-      font-size: 16px;
-    }
+    }    
     #servicios #service-title {
       color: rgb(255, 255, 255);
       font-weight: 700;
