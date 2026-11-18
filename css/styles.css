@@ -311,9 +311,13 @@
         color:#07131d;
         transition:background .2s,transform .2s;
     }
-    .send:hover {
-        background:#94d0ff;
-        transform:translateY(-2px);
+   .send:hover {
+      background: rgb(7, 19, 29);
+      color: rgb(148, 208, 255);
+      transform:translateY(-2px);
+      font-weight: 700;
+      font-style: normal;
+      font-size: 16px;
     }
     .send:disabled {
         opacity:.65;
