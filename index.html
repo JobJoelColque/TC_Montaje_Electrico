@@ -243,7 +243,21 @@
        </div>
        <div class="mb-6"><label data-template-id="label-message" class="canva-text block font-semibold mb-2" for="mensaje" style="color: rgb(238, 242, 244); font-weight: 400; font-style: normal; font-size: 16px;">Mensaje *</label><textarea id="mensaje" name="mensaje" rows="5" class="field resize-y" required="" maxlength="3000" aria-describedby="mensaje-error"></textarea>
         <p id="mensaje-error" class="text-red-300 text-sm mt-1 hidden" role="alert">Escribí tu consulta.</p>
-       </div><button id="send-button" data-template-id="submit-button" class="canva-button send w-full sm:w-auto inline-flex justify-center px-8 py-4 font-bold uppercase tracking-wider rounded-sm" type="submit">Enviar consulta</button>
+       </div>
+	  <!-- ADJUNTAR ARCHIVO -->
+      <div class="adjunto-contenedor">
+        <label for="archivo-adjunto" class="btn-adjuntar">
+           📎 Adjuntar archivo
+        </label>
+        <input type="file" id="archivo-adjunto" name="archivo-adjunto" accept=".pdf,.doc,.docx,.xls,.xlsx,.txt" class="archivo-oculto" aria-describedby="archivo-info archivo-error">
+           <p id="archivo-info" class="archivo-info">PDF, Word, Excel o TXT. Máximo 10 MB.</p>
+           <div id="archivo-seleccionado" class="archivo-seleccionado" hidden>
+             <span id="archivo-nombre"></span>
+               <button type="button" id="quitar-archivo" class="btn-quitar">Quitar</button>
+           </div>
+           <p id="archivo-error" class="archivo-error" role="alert" hidden></p>
+       </div>	  
+		<button id="send-button" data-template-id="submit-button" class="canva-button send w-full sm:w-auto inline-flex justify-center px-8 py-4 font-bold uppercase tracking-wider rounded-sm" type="submit">Enviar consulta</button>
        <p id="form-status" class="mt-5 min-h-6 text-sm" role="status" aria-live="polite"></p>
       </form>
      </div>
