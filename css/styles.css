@@ -321,68 +321,52 @@
     .btn-adjuntar {
         display: inline-flex;
         align-items: center;
-        justify-content: center;
-    
+        justify-content: center;    
         padding: 9px 16px;
         background-color: #394c5a;
-        color: #ffffff;
-    
+        color: #ffffff;    
         border: 1px solid #6a879b;
-        border-radius: 4px;
-    
+        border-radius: 4px;    
         font-family: 'Times New Roman', serif;
         font-size: 14px;
-        font-weight: bold;
-    
+        font-weight: bold;    
         cursor: pointer;
         transition: background-color 0.3s ease;
-    }
-    
+    }    
     .btn-adjuntar:hover {
         background-color: #5da9e5;
         color: #07131d;
-    }
-    
-    /* OCULTAR INPUT ORIGINAL */
-    
+    }    
+    /* OCULTAR INPUT ORIGINAL */    
     .archivo-oculto {
         position: absolute;
         width: 1px;
         height: 1px;
         opacity: 0;
         overflow: hidden;
-    }
-    
-    /* ACCESIBILIDAD CON TECLADO */
-    
+    }    
+    /* ACCESIBILIDAD CON TECLADO */    
     .archivo-oculto:focus-visible + .archivo-info {
         outline: 2px solid #5da9e5;
         outline-offset: 3px;
-    }
-    
-    /* INFORMACIÓN */
-    
+    }    
+    /* INFORMACIÓN */    
     .archivo-info {
         margin-top: 8px;
         font-size: 12px;
         color: #b8c7d1;
-    }
-    
-    /* ARCHIVO SELECCIONADO */
-    
+    }    
+    /* ARCHIVO SELECCIONADO */    
     .archivo-seleccionado {
         margin-top: 10px;
         font-size: 13px;
         color: #dce8ef;
         overflow-wrap: anywhere;
-    }
-    
+    }    
     .archivo-seleccionado[hidden] {
         display: none;
-    }
-    
-    /* BOTÓN QUITAR */
-    
+    }    
+    /* BOTÓN QUITAR */    
     .btn-quitar {
         margin-left: 10px;
         padding: 3px 8px;
@@ -391,16 +375,13 @@
         border: 1px solid #ffaaaa;
         border-radius: 3px;
         cursor: pointer;
-    }
-    
-    /* ERROR DE ARCHIVO */
-    
+    }    
+    /* ERROR DE ARCHIVO */    
     .archivo-error {
         margin-top: 8px;
         font-size: 13px;
         color: #ff9999;
-    }
-    
+    }    
     .archivo-error[hidden] {
         display: none;
     }
@@ -438,8 +419,7 @@
         font-size: 16px;
         font-weight: 400;
         text-align: center;
-        line-height: 1.5;
-        margin-top: 10px;
+        line-height: 1.5;       
     }
     #redes-sociales img {
         width: 50px;
@@ -555,10 +535,18 @@
       .hero-shade {
           background:linear-gradient(90deg,rgba(9,14,19,.9),rgba(9,14,19,.52)),linear-gradient(0deg,#0b1117,transparent 65%);
       }
+      p[data-template-id="footer-links-note"] {
+          font-size: 14px;
+          font-weight: 300;          
+       }
       #redes-sociales img {
           width: 40px;
           height: 40px;
       }
+      p[data-template-id="footer-copy"] {
+         font-size: 14px;
+          font-weight: 300;                
+       }
     }
     @media(prefers-reduced-motion:reduce) {*,*::before,*::after {
         scroll-behavior:auto!important;
