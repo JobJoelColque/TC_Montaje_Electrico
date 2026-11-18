@@ -306,6 +306,103 @@
     .field::placeholder {
         color:#aab7be;
     }
+    /* CONTENEDOR DEL ARCHIVO */
+
+    .adjunto-contenedor {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+    
+    /* BOTÓN ADJUNTAR */
+    
+    .btn-adjuntar {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    
+        padding: 9px 16px;
+        background-color: #394c5a;
+        color: #ffffff;
+    
+        border: 1px solid #6a879b;
+        border-radius: 4px;
+    
+        font-family: 'Times New Roman', serif;
+        font-size: 14px;
+        font-weight: bold;
+    
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .btn-adjuntar:hover {
+        background-color: #5da9e5;
+        color: #07131d;
+    }
+    
+    /* OCULTAR INPUT ORIGINAL */
+    
+    .archivo-oculto {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        opacity: 0;
+        overflow: hidden;
+    }
+    
+    /* ACCESIBILIDAD CON TECLADO */
+    
+    .archivo-oculto:focus-visible + .archivo-info {
+        outline: 2px solid #5da9e5;
+        outline-offset: 3px;
+    }
+    
+    /* INFORMACIÓN */
+    
+    .archivo-info {
+        margin-top: 8px;
+        font-size: 12px;
+        color: #b8c7d1;
+    }
+    
+    /* ARCHIVO SELECCIONADO */
+    
+    .archivo-seleccionado {
+        margin-top: 10px;
+        font-size: 13px;
+        color: #dce8ef;
+        overflow-wrap: anywhere;
+    }
+    
+    .archivo-seleccionado[hidden] {
+        display: none;
+    }
+    
+    /* BOTÓN QUITAR */
+    
+    .btn-quitar {
+        margin-left: 10px;
+        padding: 3px 8px;
+        background: transparent;
+        color: #ffaaaa;
+        border: 1px solid #ffaaaa;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    
+    /* ERROR DE ARCHIVO */
+    
+    .archivo-error {
+        margin-top: 8px;
+        font-size: 13px;
+        color: #ff9999;
+    }
+    
+    .archivo-error[hidden] {
+        display: none;
+    }
     .send {
         background:#5da9e5;
         color:#07131d;
