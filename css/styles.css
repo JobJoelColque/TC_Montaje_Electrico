@@ -422,11 +422,36 @@
         cursor:wait;
         transform:none;
     }
+    footer[data-template-id="footer-section"] .shell {
+        align-items: center;
+    }
+
+    img[data-template-id="footer-logo"] {
+        width: 80px;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p[data-template-id="footer-copy"] {
+        color: #afbec8;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        line-height: 1.5;
+        margin-top: 10px;
+    }
     #redes-sociales img {
-    width: 50px;
-    height: 50px;
-    object-fit: contain;
-    display: block;
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+        display: block;
+    }
+    #redes-sociales img {
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+        display: block;
     }
     /* Centrar los iconos */
     #redes-sociales {
@@ -439,6 +464,14 @@
     #redes-sociales img:hover {
         transform: scale(1.10);
         transition: transform 0.3s ease;
+    }
+    p[data-template-id="footer-links-note"] {
+    color: #afbec8;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 15px;
     }
     @keyframes rise { from {
         opacity:0;
